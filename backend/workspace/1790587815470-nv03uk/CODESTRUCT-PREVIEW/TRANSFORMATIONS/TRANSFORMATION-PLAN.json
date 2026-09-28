@@ -1,0 +1,20 @@
+[
+  {
+    "type": "separate-api-and-dom",
+    "file": "ashick-modern-portfolio\\public\\assets\\script.js",
+    "status": "planned",
+    "description": "API communication and DOM manipulation will be separated into independent modules.",
+    "apiDetected": true,
+    "apiCalls": [
+      {
+        "type": "fetch",
+        "line": 60
+      }
+    ],
+    "target": {
+      "api": "src/api/",
+      "ui": "src/ui/",
+      "main": "src/main.js"
+    }
+  }
+]

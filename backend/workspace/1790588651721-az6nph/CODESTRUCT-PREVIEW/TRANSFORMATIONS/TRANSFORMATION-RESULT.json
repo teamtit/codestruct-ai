@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-28T09:44:16.036Z",
+  "mode": "safe-transformation-preview",
+  "originalSourceModified": false,
+  "transformedCopyCreated": true,
+  "transformedRoot": "CODESTRUCT-PREVIEW\\TRANSFORMED",
+  "transformations": [
+    {
+      "type": "api-module-extraction",
+      "sourceFile": "ashick-modern-portfolio\\public\\assets\\script.js",
+      "apiType": "fetch",
+      "sourceLine": 60,
+      "status": "generated-preview",
+      "targetFile": "src\\api\\api.js",
+      "originalModified": false
+    }
+  ],
+  "summary": {
+    "apiFilesDetected": 1,
+    "apiCallsDetected": 1,
+    "generatedApiModule": true
+  }
+}

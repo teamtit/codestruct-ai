@@ -1,0 +1,93 @@
+{
+  "projectId": "1790596091627-test2",
+  "projectName": "test1",
+  "architecture": {
+    "frontend": false,
+    "backend": false,
+    "react": false,
+    "html": false,
+    "css": false,
+    "javascript": true,
+    "typescript": false
+  },
+  "transformationResults": [
+    {
+      "file": "demo.js",
+      "transformed": true,
+      "apiCalls": [
+        {
+          "functionName": "codestructApiRequest1",
+          "url": "https://jsonplaceholder.typicode.com/users/1",
+          "original": "fetch"
+        },
+        {
+          "functionName": "codestructApiRequest2",
+          "url": "https://jsonplaceholder.typicode.com/posts",
+          "original": "fetch"
+        }
+      ]
+    }
+  ],
+  "transformedFiles": [
+    "demo.js"
+  ],
+  "apiCalls": [
+    {
+      "functionName": "codestructApiRequest1",
+      "url": "https://jsonplaceholder.typicode.com/users/1",
+      "original": "fetch"
+    },
+    {
+      "functionName": "codestructApiRequest2",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "original": "fetch"
+    }
+  ],
+  "detectedApiCalls": [
+    {
+      "functionName": "codestructApiRequest1",
+      "url": "https://jsonplaceholder.typicode.com/users/1",
+      "original": "fetch"
+    },
+    {
+      "functionName": "codestructApiRequest2",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "original": "fetch"
+    }
+  ],
+  "htmlFilesChanged": [],
+  "apiModule": "src\\api\\api.js",
+  "verification": {
+    "verified": true,
+    "status": "PASSED",
+    "checks": {
+      "projectStructure": {
+        "valid": true,
+        "missingDirectories": []
+      },
+      "javascriptSyntax": {
+        "valid": true,
+        "checkedFiles": 1,
+        "files": [
+          "demo.js"
+        ],
+        "errors": []
+      },
+      "apiModule": {
+        "exists": true,
+        "valid": true,
+        "file": "src\\api\\api.js",
+        "message": "Generated API module is valid."
+      },
+      "transformationReport": {
+        "exists": false,
+        "valid": true,
+        "optional": true,
+        "message": "Transformation report will be created by the refactor engine."
+      }
+    },
+    "message": "Transformed project passed all required verification checks."
+  },
+  "originalSourceUntouched": true,
+  "previewPath": "C:\\Users\\ashic\\OneDrive\\Desktop\\codeStructure-AI\\backend\\workspace\\1790596091627-test2\\test1\\CODESTRUCT-PREVIEW\\TRANSFORMED\\test1"
+}

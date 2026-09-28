@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "summary": {
+    "filesWithApiCalls": 1,
+    "apiCallsDetected": 1,
+    "transformations": 1
+  },
+  "transformations": [
+    {
+      "type": "api-module-preview",
+      "sourceFile": "ashick-modern-portfolio\\public\\assets\\script.js",
+      "apiCalls": 1,
+      "containers": 2,
+      "action": "Generate separated API module preview.",
+      "sourceModified": false
+    }
+  ]
+}

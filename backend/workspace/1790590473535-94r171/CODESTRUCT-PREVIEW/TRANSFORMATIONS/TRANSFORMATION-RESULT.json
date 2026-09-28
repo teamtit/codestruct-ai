@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-28T10:15:14.734Z",
+  "summary": {
+    "apiFilesDetected": 1,
+    "apiCallsDetected": 1,
+    "filesChanged": 1,
+    "callsTransformed": 1
+  },
+  "transformations": [
+    {
+      "file": "ashick-modern-portfolio\\public\\assets\\script.js",
+      "transformed": true,
+      "replacedCalls": 1,
+      "functions": [
+        "codestructApiRequest1"
+      ],
+      "importPath": "../../../src/api/api.js",
+      "message": "AST transformation completed."
+    }
+  ]
+}

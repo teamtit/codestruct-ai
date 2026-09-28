@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-09-28T10:10:15.512Z",
+  "architecture": {
+    "frontend": "frontend/",
+    "backend": "backend/",
+    "javascript": "src/",
+    "react": null
+  },
+  "issues": [
+    {
+      "type": "separate-api-and-dom",
+      "file": "ashick-modern-portfolio\\public\\assets\\script.js",
+      "priority": "medium",
+      "action": "Separate API communication from DOM manipulation.",
+      "reason": "API communication and DOM manipulation are mixed in the same file.",
+      "suggestedStructure": {
+        "api": "src/api/",
+        "ui": "src/ui/",
+        "services": "src/services/"
+      }
+    },
+    {
+      "type": "frontend-backend-separation",
+      "priority": "medium",
+      "action": "Keep frontend and backend responsibilities separated.",
+      "suggestedStructure": {
+        "frontend": "frontend/",
+        "backend": "backend/"
+      }
+    },
+    {
+      "type": "html-organization",
+      "priority": "low",
+      "action": "Organize HTML structure and keep page markup separate from application logic."
+    },
+    {
+      "type": "css-organization",
+      "priority": "low",
+      "action": "Separate global styles, components and animations into maintainable CSS modules."
+    },
+    {
+      "type": "javascript-modularization",
+      "priority": "medium",
+      "action": "Split JavaScript responsibilities into modules such as UI, API, utilities and application logic.",
+      "suggestedStructure": {
+        "main": "src/main.js",
+        "api": "src/api/",
+        "ui": "src/ui/",
+        "services": "src/services/",
+        "utils": "src/utils/"
+      }
+    }
+  ],
+  "plan": {
+    "goal": "Improve project structure while preserving intended behavior.",
+    "summary": {
+      "issuesDetected": 1,
+      "actionsGenerated": 5
+    },
+    "actions": [
+      {
+        "type": "separate-api-and-dom",
+        "file": "ashick-modern-portfolio\\public\\assets\\script.js",
+        "priority": "medium",
+        "action": "Separate API communication from DOM manipulation.",
+        "reason": "API communication and DOM manipulation are mixed in the same file.",
+        "suggestedStructure": {
+          "api": "src/api/",
+          "ui": "src/ui/",
+          "services": "src/services/"
+        }
+      },
+      {
+        "type": "frontend-backend-separation",
+        "priority": "medium",
+        "action": "Keep frontend and backend responsibilities separated.",
+        "suggestedStructure": {
+          "frontend": "frontend/",
+          "backend": "backend/"
+        }
+      },
+      {
+        "type": "html-organization",
+        "priority": "low",
+        "action": "Organize HTML structure and keep page markup separate from application logic."
+      },
+      {
+        "type": "css-organization",
+        "priority": "low",
+        "action": "Separate global styles, components and animations into maintainable CSS modules."
+      },
+      {
+        "type": "javascript-modularization",
+        "priority": "medium",
+        "action": "Split JavaScript responsibilities into modules such as UI, API, utilities and application logic.",
+        "suggestedStructure": {
+          "main": "src/main.js",
+          "api": "src/api/",
+          "ui": "src/ui/",
+          "services": "src/services/",
+          "utils": "src/utils/"
+        }
+      }
+    ],
+    "targetArchitecture": {
+      "frontend": "frontend/",
+      "backend": "backend/",
+      "javascript": "src/",
+      "react": null
+    },
+    "safetyRules": [
+      "Do not intentionally remove functionality.",
+      "Do not change public APIs without updating references.",
+      "Create backups before source transformations.",
+      "Verify changes after transformations.",
+      "Do not execute uploaded project code during analysis.",
+      "Do not overwrite original source files during planning.",
+      "Require verification before accepting structural changes."
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "file": "ashick-modern-portfolio\\public\\assets\\script.js",
+    "apiCalls": [
+      {
+        "type": "fetch",
+        "line": 60
+      }
+    ],
+    "containers": [
+      {
+        "type": "arrow-function",
+        "name": "anonymous-arrow",
+        "startLine": 1,
+        "endLine": 66
+      },
+      {
+        "type": "arrow-function",
+        "name": "anonymous-arrow",
+        "startLine": 56,
+        "endLine": 62
+      }
+    ]
+  }
+]

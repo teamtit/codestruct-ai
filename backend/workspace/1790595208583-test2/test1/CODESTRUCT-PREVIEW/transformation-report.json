@@ -1,0 +1,51 @@
+{
+  "projectId": "1790595208583-test2",
+  "projectName": "test1",
+  "architecture": {
+    "frontend": false,
+    "backend": false,
+    "react": false,
+    "html": false,
+    "css": false,
+    "javascript": true,
+    "typescript": false
+  },
+  "detectedApiCalls": [],
+  "transformedFiles": [],
+  "apiCalls": [],
+  "htmlFilesChanged": [],
+  "apiModule": "src\\api\\api.js",
+  "verification": {
+    "verified": true,
+    "status": "PASSED",
+    "checks": {
+      "projectStructure": {
+        "valid": true,
+        "missingDirectories": []
+      },
+      "javascriptSyntax": {
+        "valid": true,
+        "checkedFiles": 1,
+        "files": [
+          "demo.js"
+        ],
+        "errors": []
+      },
+      "apiModule": {
+        "exists": true,
+        "valid": true,
+        "file": "src\\api\\api.js",
+        "message": "Generated API module is valid."
+      },
+      "transformationReport": {
+        "exists": false,
+        "valid": true,
+        "optional": true,
+        "message": "Transformation report will be created by the refactor engine."
+      }
+    },
+    "message": "Transformed project passed all required verification checks."
+  },
+  "originalSourceUntouched": true,
+  "transformedDirectory": "C:\\Users\\ashic\\OneDrive\\Desktop\\codeStructure-AI\\backend\\workspace\\1790595208583-test2\\test1\\CODESTRUCT-PREVIEW\\TRANSFORMED\\test1"
+}

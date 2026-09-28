@@ -1,0 +1,57 @@
+{
+  "projectId": "1790593070989-ashick-modern-portfolio-smooth",
+  "projectName": "ashick-modern-portfolio",
+  "architecture": {
+    "frontend": false,
+    "backend": true,
+    "react": false,
+    "html": false,
+    "css": false,
+    "javascript": true,
+    "typescript": false
+  },
+  "detectedApiCalls": [],
+  "transformedFiles": [],
+  "apiCalls": [],
+  "htmlFilesChanged": [
+    "public\\index.html"
+  ],
+  "apiModule": "public\\assets\\api\\api.js",
+  "verification": {
+    "verified": false,
+    "status": "FAILED",
+    "checks": {
+      "projectStructure": {
+        "valid": false,
+        "missingDirectories": [
+          "src",
+          "src/api"
+        ]
+      },
+      "javascriptSyntax": {
+        "valid": true,
+        "checkedFiles": 3,
+        "files": [
+          "public\\assets\\api\\api.js",
+          "public\\assets\\script.js",
+          "server.js"
+        ],
+        "errors": []
+      },
+      "apiModule": {
+        "exists": false,
+        "valid": false,
+        "file": "src/api/api.js",
+        "message": "Generated API module was not found."
+      },
+      "transformationReport": {
+        "exists": false,
+        "valid": false,
+        "message": "Transformation report was not found."
+      }
+    },
+    "message": "Transformed project failed one or more verification checks."
+  },
+  "originalSourceUntouched": true,
+  "transformedDirectory": "C:\\Users\\ashic\\OneDrive\\Desktop\\codeStructure-AI\\backend\\workspace\\1790593070989-ashick-modern-portfolio-smooth\\ashick-modern-portfolio\\CODESTRUCT-PREVIEW\\TRANSFORMED\\ashick-modern-portfolio"
+}

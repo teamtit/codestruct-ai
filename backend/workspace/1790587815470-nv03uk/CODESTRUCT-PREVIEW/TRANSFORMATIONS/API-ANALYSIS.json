@@ -1,0 +1,11 @@
+[
+  {
+    "file": "ashick-modern-portfolio\\public\\assets\\script.js",
+    "apiCalls": [
+      {
+        "type": "fetch",
+        "line": 60
+      }
+    ]
+  }
+]
